@@ -9,10 +9,10 @@ function NavBarC() {
       expand="lg"
       style={{ backgroundColor: "#b3b3b3", flexDirection: "column" }}
     >
-      <h1>SportsZone</h1>
+      <Dribbble size={100}/>
       <Container>
         <Navbar.Brand href="/">
-          <Dribbble />
+          <h1>SportsZone</h1>
         </Navbar.Brand>
         <div className="justify-content-end">
           <Nav className="me-auto">
